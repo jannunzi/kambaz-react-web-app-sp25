@@ -11,7 +11,6 @@ import {
   Row,
 } from "react-bootstrap";
 import FormRange from "react-bootstrap/esm/FormRange";
-import { Form } from "react-router";
 
 export default function BootstrapForms() {
   return (
