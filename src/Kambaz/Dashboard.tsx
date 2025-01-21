@@ -8,13 +8,18 @@ export default function Dashboard() {
       <div id="wd-dashboard-courses">
         <Row xs={1} md={5} className="g-4">
           {Array.from({ length: 8 }).map((_, idx) => (
-            <Col key={idx} style={{ width: "18rem" }}>
+            <Col key={idx} style={{ width: "300px" }}>
               <Card>
                 <Link
                   className="wd-dashboard-course-link text-decoration-none text-dark"
                   to="/Kambaz/Courses/1234/Home"
                 >
-                  <Card.Img variant="top" src="/images/reactjs.jpg" />
+                  <Card.Img
+                    variant="top"
+                    src="/images/reactjs.jpg"
+                    width="100%"
+                    height={160}
+                  />
                   <Card.Body>
                     <Card.Title>CS1234 React JS</Card.Title>
                     <Card.Text>Full Stack software developer</Card.Text>
